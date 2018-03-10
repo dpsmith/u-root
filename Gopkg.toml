@@ -42,3 +42,7 @@ required = [
   [[prune.project]]
   name = "github.com/golang/dep"
   unused-packages = false
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/google/go-tpm"

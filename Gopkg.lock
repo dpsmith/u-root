@@ -70,6 +70,15 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/google/go-tpm"
+  packages = [
+    "tpm",
+    "tpmutil"
+  ]
+  revision = "4d6b4921fc8347f63798a3f50cfeb8648583ce34"
+
+[[projects]]
+  branch = "master"
   name = "github.com/google/uuid"
   packages = ["."]
   revision = "dec09d789f3dba190787f8b4454c7d3c936fed9e"
@@ -127,10 +136,10 @@
   revision = "6a197d5ea61168f2ac821de2b7f011b250904900"
 
 [[projects]]
+  branch = "master"
   name = "github.com/pelletier/go-toml"
   packages = ["."]
-  revision = "acdc4509485b587f5e675510c4f2c63e90ff68a8"
-  version = "v1.1.0"
+  revision = "05bcc0fb0d3e60da4b8dd5bd7e0ea563eb4ca943"
 
 [[projects]]
   name = "github.com/pkg/errors"
@@ -245,6 +254,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "965c45576d8261261c4ea2f95b0d4aa65a4b3a6d5c7d8e660f836fab69b83b36"
+  inputs-digest = "266d9496b66194898e980ee23d618a4f705f411d853ae851d5cc1ab049e2d508"
   solver-name = "gps-cdcl"
   solver-version = 1
