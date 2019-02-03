@@ -6,6 +6,7 @@ import (
 	"errors"
 )
 
+
 type struct Tpm12PcrEvent {
     pcr_index uint32
     type uint32
